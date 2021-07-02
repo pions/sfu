@@ -14,7 +14,7 @@ COPY apps $GOPATH/src/github.com/pion/ion/apps
 WORKDIR $GOPATH/src/github.com/pion/ion/apps/biz
 RUN CGO_ENABLED=0 GOOS=linux go build -a -installsuffix cgo -o /app-biz .
 
-FROM alpine:3.12.1
+FROM alpine:3.14.0
 
 RUN apk --no-cache add ca-certificates
 COPY --from=0 /app-biz /usr/local/bin/app-biz
