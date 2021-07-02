@@ -16,11 +16,11 @@ require (
 	github.com/pion/webrtc/v3 v3.0.29
 	github.com/pixelbender/go-sdp v1.1.0
 	github.com/soheilhy/cmux v0.1.4
-	github.com/spf13/viper v1.7.1
+	github.com/spf13/viper v1.8.1
 	github.com/square/go-jose/v3 v3.0.0-20200630053402-0a67ce9b0693
 	github.com/stretchr/testify v1.7.0
 	github.com/tj/assert v0.0.3
-	golang.org/x/sync v0.0.0-20201207232520-09787c993a3a
-	google.golang.org/grpc v1.36.1
+	golang.org/x/sync v0.0.0-20210220032951-036812b2e83c
+	google.golang.org/grpc v1.38.0
 	google.golang.org/protobuf v1.26.0
 )
