@@ -9,7 +9,7 @@ require (
 	github.com/go-redis/redis/v7 v7.4.0
 	github.com/improbable-eng/grpc-web v0.13.0
 	github.com/jhump/protoreflect v1.8.2
-	github.com/nats-io/nats.go v1.10.0
+	github.com/nats-io/nats.go v1.11.0
 	github.com/pion/ion-avp v1.8.4
 	github.com/pion/ion-log v1.2.0
 	github.com/pion/ion-sfu v1.10.6
