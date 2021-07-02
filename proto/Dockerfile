@@ -5,7 +5,7 @@ RUN export GO111MODULE=on && go get google.golang.org/grpc/cmd/protoc-gen-go-grp
 
 RUN echo $GOPATH
 
-FROM alpine:3.12.1
+FROM alpine:3.14.0
 
 RUN apk --no-cache add protobuf make
 

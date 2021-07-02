@@ -14,7 +14,7 @@ COPY proto/ $GOPATH/src/github.com/pion/ion/proto
 WORKDIR $GOPATH/src/github.com/pion/ion/cmd/islb
 RUN CGO_ENABLED=0 GOOS=linux go build -a -installsuffix cgo -o /islb .
 
-FROM alpine:3.12.1
+FROM alpine:3.14.0
 RUN apk --no-cache add ca-certificates
 COPY --from=0 /islb /usr/local/bin/islb
 
