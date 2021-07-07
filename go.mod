@@ -13,7 +13,7 @@ require (
 	github.com/pion/ion-avp v1.8.4
 	github.com/pion/ion-log v1.2.0
 	github.com/pion/ion-sfu v1.10.6
-	github.com/pion/webrtc/v3 v3.0.29
+	github.com/pion/webrtc/v3 v3.0.31
 	github.com/pixelbender/go-sdp v1.1.0
 	github.com/soheilhy/cmux v0.1.4
 	github.com/spf13/viper v1.7.1
